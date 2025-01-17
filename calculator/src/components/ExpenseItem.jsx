@@ -1,6 +1,6 @@
 import { MdEdit, MdDelete } from "react-icons/md";
 
-export default function ExpenseItem({ expense, handleDelete, handleEdit}){
+export default function ExpenseItem({expense, handleDelete, handleEdit}){
   const { id, charge, amount } = expense;
   return (
     <li className="item">
